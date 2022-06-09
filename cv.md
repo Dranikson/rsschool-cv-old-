@@ -21,4 +21,6 @@
 * RSschool, some marathons.
 
 # ENGLISH
-* B1-B2.  
+* B2.  
+# POLISH
+* B2.
