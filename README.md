@@ -1,1 +1,1 @@
-https://dranikson.github.io/rsschool-cv/
+The link: https://dranikson.github.io/rsschool-cv/
