@@ -58,7 +58,7 @@ h5,h6{font-size:inherit;font-weight: 400;}
 	justify-content: center;
 	border-radius: 4px;
 	background-color: black;
-	transition: 0.25s;
+	transition: 1s;
 }
 .button:hover {
 	width: 140px;
@@ -70,6 +70,7 @@ h5,h6{font-size:inherit;font-weight: 400;}
 }
 .button a:hover {
 	color: black;
+	font-size: larger;
 	transition: 0.25s;
 }
 /* HEADER */
@@ -109,7 +110,7 @@ nav li {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 .bio__img {
 	margin-right: 40px;
@@ -118,13 +119,15 @@ nav li {
 	border-radius: 50px;
 }
 .bio__content {
-	height: 300px;
+	height: 400px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 30%;
+	justify-content: center;
+	width: 50%;
 }
 .bio__text {
+	width: 100%;
 	padding: 20px 0;
 	line-height: 1.2;
 	text-align: justify;
@@ -208,6 +211,7 @@ nav li {
 	height: 40px;
 }
 .skills__webdev {
+	height: 210px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -273,8 +277,23 @@ margin-left: 300px;
 
 	background-color: black;
 }
+.rs-inf {
+	display: flex;
+	align-items: center;
+	color: white;
+}
+.rs-inf a:hover {
+	border-bottom: solid 1px #ffffff;
+}
+.current-year__container {
+	margin: 0 10px;
+}
+.rs-logo {
+	border-radius: 8px;
+	background-color: white;
+}
 .phone-mail {
-	width: 170px;
+	width: 30%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -306,6 +325,7 @@ margin-left: 300px;
 .phone {
 }
 .footer__social {
+	width: 30%;
 	display: flex;
 	align-items: center;
 }
