@@ -277,6 +277,18 @@ margin-left: 300px;
 .portfolio__img {
 	height: 200px;
 }
+.code-example__container {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.code-example {
+	padding-top: 20px;
+	display: inline-block;
+	font-size: 20px;
+}
 /* MAIN */
 /* -------footer--------- */
 .footer__container {
